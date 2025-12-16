@@ -137,14 +137,12 @@ ul li a:hover::after {
     justify-content: center;
 }
 .about-me-section h1{
-    text-align: center;
+     text-align: center;
     color: red;
-    display: flex;
-    align-items: center;
     position: relative;
-    top: 150px;
-    justify-content: center;
+    top: 50px;
     font-family: "Poppins", sans-serif;
+    font-size: 30px;
 }
 .main-container {
     max-width: 1200px;
@@ -659,3 +657,4 @@ button:hover {
         text-align: center;
     }
 }
+
