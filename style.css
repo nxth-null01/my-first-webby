@@ -137,12 +137,14 @@ ul li a:hover::after {
     justify-content: center;
 }
 .about-me-section h1{
-     text-align: center;
+    text-align: center;
     color: red;
     position: relative;
     top: 50px;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
+
+   
 }
 .main-container {
     max-width: 1200px;
@@ -195,6 +197,10 @@ ul li a:hover::after {
 .icons i:hover{
     transform: translate(0px, -10px);
 
+}
+.icons a{
+    list-style: none;
+    color: rgb(255, 0, 0);
 }
 .flex-container {
     display: flex;
@@ -389,6 +395,9 @@ button:hover {
 }
 
 @media (max-width: 1024px) {
+    .intro-parg h1 {
+        font-size: 48px;
+    }
 
     .nav-bar {
         padding: 10px 40px;
@@ -430,7 +439,9 @@ button:hover {
 
 @media (max-width: 768px) {
 
-    /* NAVBAR */
+    .intro-parg h1 {
+        font-size: 42px;
+    }
     .nav-bar {
         flex-direction: column;
         height: auto;
@@ -518,7 +529,9 @@ button:hover {
 
 
 @media (max-width: 480px) {
-
+    .intro-parg h1 {
+        font-size: 34px;
+    }
     .intro-parg h1 {
         font-size: 34px;
     }
@@ -657,4 +670,3 @@ button:hover {
         text-align: center;
     }
 }
-
